@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 import Highlight, { defaultProps } from 'prism-react-renderer'
+import slugify from '@sindresorhus/slugify';
 
 import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
@@ -42,7 +43,7 @@ function TrafficLightsIcon(props) {
   )
 }
 
-export function Hero() {
+export function Hero(props) {
   return (
     <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-5.25rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-5.25rem] dark:lg:pt-[4.75rem]">
       <div className="py-16 sm:px-2 lg:relative lg:py-20 lg:px-0">
@@ -65,7 +66,7 @@ export function Hero() {
                 Principally different approach to building frontends where the planet benefits the most and users remain at center.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/#getting-started">Get started</Button>
+                <Button href={`/#${slugify(props.title)}`}>Get started</Button>
                 <Button href="https://github.com/sustainableui/sui-headless-react" variant="secondary">
                   View on GitHub
                 </Button>

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
+import slugify from '@sindresorhus/slugify';
 
 import { Hero } from '@/components/Hero'
 import { Logo } from '@/components/Logo'
@@ -189,9 +190,9 @@ export function Layout({ children, theme, title, tableOfContents }) {
     <>
       <Header theme={theme} navigation={navigation} />
 
-      {isHomePage && <Hero />}
+      {isHomePage && <Hero title={title} />}
 
-      <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+      <div id={slugify(title)} className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
           <div className="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
