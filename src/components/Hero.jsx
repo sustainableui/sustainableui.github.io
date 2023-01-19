@@ -9,23 +9,26 @@ import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 
 const codeLanguage = 'javascript'
-const code = `const LowCarbonComponent =
-  React.lazy(() => import('./LowCarbonComponent'))
+const code = `import React, { lazy } from 'react'
+import { withSui } from '@sustainableui/sui-headless-react'
 
-const ModerateCarbonComponent =
-  React.lazy(() => import('./ModerateCarbonComponent'))
+// High gCO2e/kWh at client location
+const LowCarbonVideo = lazy(() => './VideoTranscript')
 
-const HighCarbonComponent =
-  React.lazy(() => import('./HighCarbonComponent'))
+// Between High and Low gCO2e/kWh at client location
+const ModerateCarbonVideo = lazy(() => './Video')
+
+// Low gCO2e/kWh at client location
+const HighCarbonVideo = lazy(() => './Video')
 
 export default withSui([
-  LowCarbonComponent,
-  ModerateCarbonComponent,
-  HighCarbonComponent
+  LowCarbonVideo,
+  ModerateCarbonVideo,
+  HighCarbonVideo
 ])`
 
 const tabs = [
-  { name: 'CarbonComponent.jsx', isActive: true },
+  { name: 'CarbonVideo.jsx', isActive: true },
   { name: 'package.json', isActive: false },
 ]
 
@@ -41,7 +44,7 @@ function TrafficLightsIcon(props) {
 
 export function Hero() {
   return (
-    <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
+    <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-5.25rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-5.25rem] dark:lg:pt-[4.75rem]">
       <div className="py-16 sm:px-2 lg:relative lg:py-20 lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
