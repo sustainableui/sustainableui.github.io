@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import { slugifyWithCounter } from '@sindresorhus/slugify'
+import {slugifyWithCounter} from '@sindresorhus/slugify'
 
-import { Layout } from '@/components/Layout'
+import {Layout} from '@/components/Layout'
+import useTheme from "@/hooks/useTheme";
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
@@ -24,8 +25,7 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
     if (node.name === 'h2' || node.name === 'h3') {
       let title = getNodeText(node)
       if (title) {
-        let id = slugify(title)
-        node.attributes.id = id
+        node.attributes.id = slugify(title)
         if (node.name === 'h3') {
           if (!sections[sections.length - 1]) {
             throw new Error(
@@ -49,6 +49,8 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
 }
 
 export default function App({ Component, pageProps }) {
+  let theme = useTheme()
+
   let title = pageProps.markdoc?.frontmatter.title
 
   let pageTitle =
@@ -67,7 +69,7 @@ export default function App({ Component, pageProps }) {
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
       </Head>
-      <Layout title={title} tableOfContents={tableOfContents}>
+      <Layout title={title} theme={theme} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
       </Layout>
     </>

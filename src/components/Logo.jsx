@@ -23,7 +23,6 @@ const LogoLight = dynamic(() => import('./LogoLight'))
 const LogoDark = dynamic(() => import('./LogoDark'))
 
 
-export function Logo() {
-    const isDarkMode = true
-    return isDarkMode ? <LogoLight/> : <LogoDark/>
+export function Logo(props) {
+    return props.theme.isDarkMode ? <LogoLight /> : <LogoDark />
 }

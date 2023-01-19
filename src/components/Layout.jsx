@@ -77,7 +77,7 @@ function GitHubIcon(props) {
   )
 }
 
-function Header({ navigation }) {
+function Header({ theme, navigation }) {
   let [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
@@ -105,14 +105,14 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
-          <Logo className="hidden h-9 w-auto fill-slate-700 dark:fill-green-100 lg:block" />
+          <Logo theme={theme} className="hidden h-9 w-auto fill-slate-700 dark:fill-green-100 lg:block" />
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
         <Search />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
-        <ThemeSelector className="relative z-10" />
+        <ThemeSelector theme={theme} className="relative z-10" />
         <Link href="https://github.com/sustainableui/sui-headless-react" className="group" aria-label="GitHub">
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
