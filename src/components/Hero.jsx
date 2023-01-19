@@ -63,7 +63,7 @@ export function Hero(props) {
                 UIs redefined for the better.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Principally different approach to building frontends where the planet benefits the most and users remain at center.
+                Principally different approach to building frontends where the planet benefits the most while users remain at center.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href={`/#${slugify(props.title)}`}>Get started</Button>
