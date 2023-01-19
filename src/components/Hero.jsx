@@ -19,7 +19,7 @@ const LowCarbonVideo = lazy(() => './VideoTranscript')
 const ModerateCarbonVideo = lazy(() => './Video')
 
 // Low gCO2e/kWh at client location
-const HighCarbonVideo = lazy(() => './Video')
+const HighCarbonVideo = lazy(() => './VideoAutoplay')
 
 export default withSui([
   LowCarbonVideo,
