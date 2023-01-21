@@ -17,32 +17,8 @@ const navigation = [
     title: 'SUI Ecosystem',
     links: [
       { title: 'Our vision', href: '/' },
-      { title: 'Carbon aware UI', href: '/404' },
-      { title: 'Headless solutions', href: '/404' },
     ],
-  },
-  {
-    title: 'Core Concepts',
-    links: [
-      { title: 'Redefine success first', href: '/404' },
-      { title: 'Green mode design principles', href: '/404' },
-      { title: 'Green software engineering', href: '/404' },
-    ],
-  },
-  {
-    title: 'SUI Headless for React',
-    links: [
-      { title: 'Getting started', href: '/404' },
-      { title: 'Installation', href: '/404' },
-    ],
-  },
-  {
-    title: 'Contributing',
-    links: [
-      { title: 'How to contribute', href: '/404' },
-      { title: 'Sponsorships', href: '/404' },
-    ],
-  },
+  }
 ]
 
 function GitHubIcon(props) {

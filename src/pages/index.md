@@ -4,24 +4,16 @@ pageTitle: Sustainable UI - Build UIs with sustainability at core.
 description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
 ---
 
-Sustainable UI aims at improving well-being, equity and sustainability by redefining how user interactions are designed and implemented in frontends. {% .lead %}
+Sustainable UI is a dream turned into reality, where user interfaces are designed and built in a way so that they do not compromise on user's well-being, humanity's equity and planet's sustainability. {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="SUI Headless for React" icon="installation" href="/" description="Step-by-step guides to setting up your system and installing the library." /%}
+{% quick-link title="Success Differently" icon="installation" href="/" description="SUI goes beyond good look & usability of UI as it is no longer enough." /%}
 
-{% quick-link title="Architecture guide" icon="presets" href="/" description="Learn how the internals work and contribute." /%}
-
-{% quick-link title="Plugins" icon="plugins" href="/" description="Extend the library with third-party plugins or write your own." /%}
-
-{% quick-link title="API reference" icon="theming" href="/" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
+{% quick-link title="Green Mode Design" icon="presets" href="/" description="SUI is capable of graceful degradation and leaves user in control." /%}
 
 {% /quick-links %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.
-
----
-
-## Quick start
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+{% callout type="warning" title="This page is still work in progress!" %}
+Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
+{% /callout %}
