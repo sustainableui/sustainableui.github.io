@@ -67,7 +67,17 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>{pageTitle}</title>
+        <meta property="og:title" content={pageTitle} />
+        <meta property="twitter:title" content={pageTitle} />
         {description && <meta name="description" content={description} />}
+        {description && <meta property="twitter:description" content={description} />}
+        {description && <meta property="og:description" content={description} />}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sustainableui.com/" />
+        <meta property="og:image" content="/assets/og_image.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sustainableui.com/" />
+        <meta property="twitter:image" content="/assets/twitter_image.png" />
       </Head>
       <Layout title={title} theme={theme} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
