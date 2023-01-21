@@ -1,7 +1,7 @@
 ---
 title: Our vision
 pageTitle: Sustainable UI - Build UIs with sustainability at core.
-description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
+description: Sustainable UI is a dream turned into reality, where user interfaces are designed and built in a way so that they do not compromise on user's well-being, humanity's equity and planet's sustainability.
 ---
 
 Sustainable UI is a dream turned into reality, where user interfaces are designed and built in a way so that they do not compromise on user's well-being, humanity's equity and planet's sustainability. {% .lead %}
