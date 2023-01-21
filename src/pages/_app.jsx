@@ -74,10 +74,10 @@ export default function App({ Component, pageProps }) {
         {description && <meta property="og:description" content={description} />}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sustainableui.com/" />
-        <meta property="og:image" content="/assets/og_image.png" />
+        <meta property="og:image" content="https://sustainableui.com/assets/og_image.png" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://sustainableui.com/" />
-        <meta property="twitter:image" content="/assets/twitter_image.png" />
+        <meta property="twitter:image" content="https://sustainableui.com/assets/twitter_image.png" />
       </Head>
       <Layout title={title} theme={theme} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
