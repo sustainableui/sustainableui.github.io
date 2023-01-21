@@ -67,8 +67,8 @@ export function Hero(props) {
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href={`/#${slugify(props.title)}`}>Get started</Button>
-                <Button href="https://github.com/sustainableui/sui-headless-react" variant="secondary">
-                  View on GitHub
+                <Button href="https://taikai.network/gsf/hackathons/carbonhack22/projects/cl8j1ex3h2845301s653mtnk87/idea" variant="secondary">
+                  Carbon Hack 22 idea
                 </Button>
               </div>
             </div>
