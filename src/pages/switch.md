@@ -1,6 +1,6 @@
 ---
-title: Introduction to headless
-description: Headless solution enables for separation of concerns.
+title: Switch
+description: About SUI Switch primitive.
 ---
 
 Also, we do not want to violate user freedom when they use our app. To apply user control principle, we have introduced Switch. Switch allows the user to choose a display mode at any time.
