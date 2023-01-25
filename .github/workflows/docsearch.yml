@@ -9,12 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.3.0
 
       - name: DocSearch Recrawl
         uses: algolia/algoliasearch-crawler-github-actions@v1.1.9
         id: crawler_push
         with:
+          crawler-name: ${{ secrets.CRAWLER_NAME }}
           crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
