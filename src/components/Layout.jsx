@@ -18,6 +18,13 @@ const navigation = [
     links: [
       { title: 'Our vision', href: '/' },
     ],
+  },
+  {
+    title: 'Core Principles',
+    links: [
+      { title: '(Re)define success first', href: '/redefine-success-first' },
+      { title: 'Green mode design', href: '#' },
+    ],
   }
 ]
 
