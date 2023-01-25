@@ -25,6 +25,13 @@ const navigation = [
       { title: '(Re)define success first', href: '/redefine-success-first' },
       { title: 'Green mode design', href: '/green-mode-design' },
     ],
+  },
+  {
+    title: 'Headless Solutions',
+    links: [
+      { title: 'Introduction to headless', href: '/introduction-to-headless' },
+      { title: 'SUI headless for the web', href: '/sui-headless-for-the-web' },
+    ],
   }
 ]
 
