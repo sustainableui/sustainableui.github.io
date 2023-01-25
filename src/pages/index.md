@@ -10,7 +10,7 @@ Sustainable UI is a dream turned into reality, where user interfaces are designe
 
 {% quick-link title="Success Differently" icon="installation" href="/redefine-success-first" description="SUI goes beyond good look & usability of UI as it is no longer enough." /%}
 
-{% quick-link title="Green Mode Design" icon="presets" href="#" description="SUI is capable of graceful degradation and leaves user in control." /%}
+{% quick-link title="Green Mode Design" icon="presets" href="/green-mode-design" description="SUI is capable of graceful degradation and leaves user in control." /%}
 
 {% /quick-links %}
 

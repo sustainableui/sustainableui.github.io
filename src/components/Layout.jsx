@@ -23,7 +23,7 @@ const navigation = [
     title: 'Core Principles',
     links: [
       { title: '(Re)define success first', href: '/redefine-success-first' },
-      { title: 'Green mode design', href: '#' },
+      { title: 'Green mode design', href: '/green-mode-design' },
     ],
   }
 ]
