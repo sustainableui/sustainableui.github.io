@@ -27,6 +27,19 @@ const navigation = [
     ],
   },
   {
+    title: 'Primitives',
+    links: [
+      { title: 'Loader', href: '/loader' },
+      { title: 'Switch', href: '/switch' },
+    ],
+  },
+  {
+    title: 'UX',
+    links: [
+      { title: 'User flows', href: '/user-flows' },
+    ],
+  },
+  {
     title: 'Headless Solutions',
     links: [
       { title: 'Introduction to headless', href: '/introduction-to-headless' },
