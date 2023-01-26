@@ -29,8 +29,8 @@ const navigation = [
   {
     title: 'Primitives',
     links: [
-      { title: 'Loader', href: '/loader' },
-      { title: 'Switch', href: '/switch' },
+      { title: 'Carbon Loader', href: '/carbon-loader' },
+      { title: 'UI Switch', href: '/ui-switch' },
     ],
   },
   {
