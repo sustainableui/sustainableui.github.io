@@ -24,12 +24,16 @@ const navigation = [
     links: [
       { title: '(Re)define success first', href: '/redefine-success-first' },
       { title: 'Green mode design', href: '/green-mode-design' },
+      { title: 'Carbon awareness', href: '/carbon-awareness' },
     ],
   },
   {
     title: 'Primitives',
     links: [
+      { title: 'Display Mode', href: '/display-mode' },
       { title: 'Carbon Loader', href: '/carbon-loader' },
+      { title: 'Carbon Component', href: '/carbon-component' },
+      { title: 'Graceful Degradation Function', href: '/graceful-degradation-function' },
       { title: 'UI Switch', href: '/ui-switch' },
     ],
   },
