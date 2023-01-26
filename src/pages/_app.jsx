@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import {slugifyWithCounter} from '@sindresorhus/slugify'
+import { Analytics } from '@vercel/analytics/react';
 
 import {Layout} from '@/components/Layout'
 import useTheme from "@/hooks/useTheme";
@@ -82,6 +83,7 @@ export default function App({ Component, pageProps }) {
       <Layout title={title} theme={theme} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </>
   )
 }
