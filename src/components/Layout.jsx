@@ -22,32 +22,32 @@ const navigation = [
   {
     title: 'Core Principles',
     links: [
-      { title: '(Re)define success first', href: '/redefine-success-first' },
-      { title: 'Green mode design', href: '/green-mode-design' },
-      { title: 'Carbon awareness', href: '/carbon-awareness' },
+      { title: '(Re)define success first', href: '/docs/redefine-success-first' },
+      { title: 'Green mode design', href: '/docs/green-mode-design' },
+      { title: 'Carbon awareness', href: '/docs/carbon-awareness' },
     ],
   },
   {
     title: 'Primitives',
     links: [
-      { title: 'Display Mode', href: '/display-mode' },
-      { title: 'Carbon Loader', href: '/carbon-loader' },
-      { title: 'Carbon Component', href: '/carbon-component' },
-      { title: 'Graceful Degradation Function', href: '/graceful-degradation-function' },
-      { title: 'UI Switch', href: '/ui-switch' },
+      { title: 'Display Mode', href: '/docs/display-mode' },
+      { title: 'Carbon Loader', href: '/docs/carbon-loader' },
+      { title: 'Carbon Component', href: '/docs/carbon-component' },
+      { title: 'Graceful Degradation Function', href: '/docs/graceful-degradation-function' },
+      { title: 'UI Switch', href: '/docs/ui-switch' },
     ],
   },
   {
     title: 'UX',
     links: [
-      { title: 'User flows', href: '/user-flows' },
+      { title: 'User flows', href: '/docs/user-flows' },
     ],
   },
   {
     title: 'Headless Solutions',
     links: [
-      { title: 'Introduction to headless', href: '/introduction-to-headless' },
-      { title: 'SUI headless for the web', href: '/sui-headless-for-the-web' },
+      { title: 'Introduction to headless', href: '/docs/introduction-to-headless' },
+      { title: 'SUI headless for the web', href: '/docs/sui-headless-for-the-web' },
     ],
   }
 ]
