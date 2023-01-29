@@ -8,11 +8,11 @@ Sustainable UI is a concept for design and development of software, where user i
 
 {% quick-links %}
 
-{% quick-link title="Success Differently" icon="installation" href="/redefine-success-first" description="SUI goes beyond good look & usability of UI as it is no longer enough." /%}
+{% quick-link title="Success Differently" icon="installation" href="/docs/redefine-success-first" description="SUI goes beyond good look & usability of UI as it is no longer enough." /%}
 
-{% quick-link title="Green Mode Design" icon="presets" href="/green-mode-design" description="SUI is capable of graceful degradation and leaves user in control." /%}
+{% quick-link title="Green Mode Design" icon="presets" href="/docs/green-mode-design" description="SUI is capable of graceful degradation and leaves user in control." /%}
 
-{% quick-link title="Carbon Awareness" icon="plugins" href="/carbon-awareness" description="SUI does more when electricity is cleaner and less when electricity is dirtier." /%}
+{% quick-link title="Carbon Awareness" icon="plugins" href="/docs/carbon-awareness" description="SUI does more when electricity is cleaner and less when electricity is dirtier." /%}
 
 {% /quick-links %}
 
