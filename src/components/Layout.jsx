@@ -60,13 +60,13 @@ const navigation = [
     ]
   },
   {
-    title: 'Updates',
+    title: 'Project Updates',
     links: [
       {
-        title: '2023', href: '/updates/year-2023'
+        title: 'Year 2023', href: '/updates/year-2023'
       },
       {
-        title: '2022', href: '/updates/year-2022'
+        title: 'Year 2022', href: '/updates/year-2022'
       }
     ]
   }
