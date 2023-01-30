@@ -29,7 +29,7 @@ Examples of usage **allowed** by the license:
 - Creating a website or web application for a client that will be owned by that client.
 - Creating a commercial SaaS application (like an invoicing app for example) where end users have to pay a fee to use the application.
 - Creating a commercial self-hosted web application that is sold to end users for a one-time fee.
-- Creating a web application where the primary purpose is clearly not to simply re-distribute the components (like a conference organization app that uses the components for its UI for example) that is free and open source, where the source code is publicly available.
+- Creating a web application where the primary purpose is clearly not to simply re-distribute the components (like a conference organization app that uses the components for it's UI for example) that is free and open source, where the source code is publicly available.
 
 Examples of usage **not allowed** by the license:
 

@@ -3,11 +3,9 @@ title: User flows
 description: 
 ---
 
-We have made a UX analysis that identifies different flows based on localization method (IP address or precise user location) and software architecture. We realized that it is not a good thing to wait, which will likely result in a higher bounce rate.
+There is a [Carbon Hack 22 demo implementation](https://poc.sustainableui.com/) of [SUI Headless for React](https://github.com/sustainableui/sui-headless-react) from October 2022 that has a loading screen while the localization is in a pending state. This is a great example of what you want to avoid in UIs based on the UX analysis we have done.
 
-When you look at the [Carbon Hack 22 demo implementation](https://poc.sustainableui.com/) of SUI Headless for React, there is a loading screen while the localization is happening. This is a great example of what you want to avoid in UIs.
-
-User should be able to use the app immediately. Hence fallback mode would be preferable before suggesting the user to change the display mode.
+When user visits the website, it should be usable as soon as possible. Endless stream of popups at most of today's websites is a great example of a bad UX practice. SUI localizes user in the background based on IP address. For better precision, localization should be implemented client-side, worsening the UX experience.
 
 {% callout type="warning" title="This page is still work in progress!" %}
 Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
