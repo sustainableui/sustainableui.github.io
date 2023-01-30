@@ -58,6 +58,17 @@ const navigation = [
         title: 'Cloudflare Workers', href: '/cloudflare-workers'
       }
     ]
+  },
+  {
+    title: 'Updates',
+    links: [
+      {
+        title: '2023', href: '/updates/2023'
+      },
+      {
+        title: '2022', href: '/updates/2022'
+      }
+    ]
   }
 ]
 
