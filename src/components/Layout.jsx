@@ -54,20 +54,14 @@ const navigation = [
   {
     title: 'Edge',
     links: [
-      {
-        title: 'Cloudflare Workers', href: '/cloudflare-workers'
-      }
+      { title: 'Cloudflare Workers', href: '/cloudflare-workers' }
     ]
   },
   {
     title: 'Project Updates',
     links: [
-      {
-        title: 'Year 2023', href: '/updates/year-2023'
-      },
-      {
-        title: 'Year 2022', href: '/updates/year-2022'
-      }
+      { title: 'Year 2023', href: '/updates/year-2023' },
+      { title: 'Year 2022', href: '/updates/year-2022' }
     ]
   }
 ]

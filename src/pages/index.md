@@ -17,3 +17,7 @@ Learn about [future plans](/future-plans) for the project or pick one set of cor
 {% quick-link title="Carbon Awareness" icon="plugins" href="/docs/carbon-awareness" description="SUI does more when electricity is cleaner and less when electricity is dirtier." /%}
 
 {% /quick-links %}
+
+{% callout title="Stay in the loop!" %}
+We are actively working on the project (see [project updates page](/updates/year-2023)). Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
+{% /callout %}
