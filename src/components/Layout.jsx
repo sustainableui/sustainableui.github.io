@@ -63,10 +63,10 @@ const navigation = [
     title: 'Updates',
     links: [
       {
-        title: '2023', href: '/updates/2023'
+        title: '2023', href: '/updates/year-2023'
       },
       {
-        title: '2022', href: '/updates/2022'
+        title: '2022', href: '/updates/year-2022'
       }
     ]
   }
