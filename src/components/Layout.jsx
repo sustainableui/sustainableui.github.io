@@ -17,6 +17,7 @@ const navigation = [
     title: 'SUI Ecosystem',
     links: [
       { title: 'Our vision', href: '/' },
+      { title: 'Future plans', href: '/future-plans' },
     ],
   },
   {
