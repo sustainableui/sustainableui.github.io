@@ -49,6 +49,14 @@ const navigation = [
       { title: 'Introduction to headless', href: '/docs/introduction-to-headless' },
       { title: 'SUI headless for the web', href: '/docs/sui-headless-for-the-web' },
     ],
+  },
+  {
+    title: 'Edge',
+    links: [
+      {
+        title: 'Cloudflare Workers', href: '/cloudflare-workers'
+      }
+    ]
   }
 ]
 
