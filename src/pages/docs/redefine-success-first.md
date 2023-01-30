@@ -24,7 +24,3 @@ We build UIs that offer the same functionality to every human being. Given the f
 ## Sustainability
 
 We build UIs that help make more sustainable user choices. SUI is built around [Display Mode](/docs/display-mode) primitive that we define later on in the docs. Application that has sustainable UI has different modes of operation based on grid carbon intensity situation in a given region or user preference.
-
-{% callout type="warning" title="This page is still work in progress!" %}
-Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
-{% /callout %}

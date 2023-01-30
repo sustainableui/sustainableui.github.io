@@ -15,7 +15,3 @@ Sustainable UI (SUI) is a concept for design and development of software, where 
 {% quick-link title="Carbon Awareness" icon="plugins" href="/docs/carbon-awareness" description="SUI does more when electricity is cleaner and less when electricity is dirtier." /%}
 
 {% /quick-links %}
-
-{% callout type="warning" title="This page is still work in progress!" %}
-Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
-{% /callout %}

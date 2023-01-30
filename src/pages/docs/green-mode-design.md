@@ -16,7 +16,3 @@ User control is a core UX principle that places user at center of user experienc
 {% callout title="Read more about green mode design" %}
 A proposal for a design paradigm to reduce emissions via user choice and progressive degradation - [Green Mode Design](https://ismaelvelasco.dev/series/green-mode-design).
 {% /callout %}
-
-{% callout type="warning" title="This page is still work in progress!" %}
-Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
-{% /callout %}

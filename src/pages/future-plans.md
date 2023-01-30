@@ -66,3 +66,7 @@ We document every significant step on our way towards the goal down below.
   - created this page under SUI Ecosystem section
   - supplied additional content to pages under Core Principles, Primitives, UX and Headless Solutions sections 
   - added POC implementation to Edge section by [Fershad Irani](https://www.linkedin.com/in/fershad/) (Taiwan) that uses Cloudlfare Workers as an example of implementing Sustainable UI
+
+{% callout title="This page is getting updated constantly!" %}
+Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
+{% /callout %}

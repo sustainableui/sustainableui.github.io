@@ -10,7 +10,3 @@ Carbon awareness is a green software principle that ensures software does less j
 {% /callout %}
 
 SUI encourages designers and developers to build alternative variants of components to achieve graceful degradation so that it can automatically suggest the most fitting variant based on grid carbon intensity at a given location. With emergence of services such as [Electricity Maps](https://electricitymaps.com) and [Watttime](https://www.watttime.org/), it is possible to leverage grid carbon intensity data for the purposes of carbon aware apps development.
-
-{% callout type="warning" title="This page is still work in progress!" %}
-Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
-{% /callout %}
