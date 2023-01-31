@@ -1,6 +1,6 @@
 ---
 title: SUI headless for the web
-description: SUI is a generic concept and the aim is to support all popular libraries and frameworks on the web in the near future.
+description: Headless library is an abstraction for implementing sustainable UIs.
 ---
 
 As mentioned in the previous page, SUI has started as a [React headless library](https://github.com/sustainableui/sui-headless-react). The library automatically selects [Carbon Component](/docs/carbon-component) variant from the 3 components that developer provides. This selection is made based on grid carbon intensity in area where the user is located at the time of interaction with the app. At the same time, library provides an interface for implementing a switch that enables user control.

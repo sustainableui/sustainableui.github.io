@@ -1,6 +1,6 @@
 ---
 title: Green mode design
-description: "SUI is based on 2 green mode design principles: graceful degradation** and user control."
+description: In addition to designing and developing for well-being, equity and sustainability, SUI is based on 2 green mode design principles graceful degradation and user control.
 ---
 
 In addition to designing and developing for well-being, equity and sustainability, SUI is based on 2 green mode design principles graceful degradation and user control.

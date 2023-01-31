@@ -1,5 +1,6 @@
 ---
 title: Cloudflare Workers
+pageTitle: Edge - Cloudflare Workers - SUI
 description: Using Cloudflare Workers in order to rewrite contents of HTML response based on grid carbon intensity value in visitor's region.
 ---
 

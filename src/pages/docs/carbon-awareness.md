@@ -1,6 +1,6 @@
 ---
 title: Carbon awareness
-description: Doing less when electricity is dirty and vice-versa.
+description: Carbon awareness is a green software principle that ensures software does less job when electricity production is dirty and opposite when more of it is produced from renewable energy sources.
 ---
 
 Carbon awareness is a green software principle that ensures software does less job when electricity production is dirty and opposite when more of it is produced from renewable energy sources.
