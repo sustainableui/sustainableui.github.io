@@ -19,3 +19,6 @@ Our goal is to enable designers and developers build sustainable UIs on all plat
 {% callout title="Stay in the loop!" %}
 We are actively working on the project (see [project updates page](/updates/year-2023)). Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
 {% /callout %}
+
+{% partners %}
+{% /partners %}

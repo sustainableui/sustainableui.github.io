@@ -1,5 +1,6 @@
 import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
+import Partners from "@/components/Partners";
 
 const tags = {
   callout: {
@@ -42,6 +43,9 @@ const tags = {
       href: { type: String },
     },
   },
+  'partners': {
+    render: Partners,
+  }
 }
 
 export default tags
