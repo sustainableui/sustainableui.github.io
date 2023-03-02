@@ -17,7 +17,6 @@ const navigation = [
     title: 'SUI Ecosystem',
     links: [
       { title: 'Our vision', href: '/' },
-      { title: 'Future plans', href: '/future-plans' },
     ],
   },
   {
@@ -36,12 +35,6 @@ const navigation = [
       { title: 'Carbon Component', href: '/docs/carbon-component' },
       { title: 'Graceful Degradation Function', href: '/docs/graceful-degradation-function' },
       { title: 'UI Switch', href: '/docs/ui-switch' },
-    ],
-  },
-  {
-    title: 'UX',
-    links: [
-      { title: 'User flows', href: '/docs/user-flows' },
     ],
   },
   {

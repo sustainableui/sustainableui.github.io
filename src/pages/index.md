@@ -4,9 +4,7 @@ pageTitle: Sustainable UI - Build UIs with sustainability at core.
 description: Principally different approach to building frontends where the planet benefits the most while users remain at center.
 ---
 
-Sustainable UI (SUI) is a concept for design and development of software, where user interfaces are designed and built in a way so that they do not compromise on user's well-being, humanity's equity and planet's sustainability. {% .lead %}
-
-Learn about [future plans](/future-plans) for the project or pick one set of core principles that SUI is guided by down below.
+Our goal is to enable designers and developers build sustainable UIs on all platforms - be it web, desktop or mobile. We want to achieve this by maintaining a collection of core principles and an ecosystem of open-source tools that aim at streamlining the process. {% .lead %}
 
 {% quick-links %}
 

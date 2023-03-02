@@ -8,7 +8,3 @@ Each grid carbon intensity is associated with one of the Display Modes. We belie
 {% callout title="Grid Intensity View" %}
 SUI Display Mode primitive is inspired by the dropdown on [Branch Magazine](https://branch.climateaction.tech) from [ClimateAction.Tech](https://climateaction.tech) community.
 {% /callout %}
-
-{% callout type="warning" title="This page is still work in progress!" %}
-Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
-{% /callout %}

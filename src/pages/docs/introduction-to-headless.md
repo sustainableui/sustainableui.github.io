@@ -8,7 +8,3 @@ Sustainability is a comprehensive topic that is hard to tackle all at once. For 
 Headless solution enables for separation of concerns. On one hand, it provides one part of the functionality but on the other, visual representation is missing. For example: button does not have a meaning without a handler function (what happens when user clicks on it). Headless library for a button would represent a handler function.
 
 In other words, SUI has begun its journey towards helping build UIs with sustainability at core with a small piece of logic that sits beneath the actual components that compose the UI as users see it. This makes the concept super scalable and widely applicable.
-
-{% callout type="warning" title="This page is still work in progress!" %}
-Come back later or follow us on [Twitter](https://twitter.com/sustainableui) to receive regular updates about latest work on Sustainable UI.
-{% /callout %}
