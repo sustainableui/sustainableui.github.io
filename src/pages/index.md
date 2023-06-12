@@ -1,6 +1,6 @@
 ---
 title: Our vision
-pageTitle: Sustainable UI - Build UIs with sustainability at core.
+pageTitle: Sustainable UI - Build UIs with sustainability at core
 description: Principally different approach to building frontends where the planet benefits the most while users remain at center.
 ---
 
