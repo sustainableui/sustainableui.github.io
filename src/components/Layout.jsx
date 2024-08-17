@@ -1,9 +1,7 @@
-import { useCallback, useEffect, useState } from 'react'
+import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import clsx from 'clsx'
-import slugify from '@sindresorhus/slugify';
-
+import { useCallback, useEffect, useState } from 'react'
 import { Hero } from '@/components/Hero'
 import { Logo } from '@/components/Logo'
 import { MobileNavigation } from '@/components/MobileNavigation'
@@ -11,18 +9,20 @@ import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import slugify from '@sindresorhus/slugify'
 
 const navigation = [
   {
     title: 'SUI Ecosystem',
-    links: [
-      { title: 'Our vision', href: '/' },
-    ],
+    links: [{ title: 'Our vision', href: '/' }],
   },
   {
     title: 'Core Principles',
     links: [
-      { title: '(Re)define success first', href: '/docs/redefine-success-first' },
+      {
+        title: '(Re)define success first',
+        href: '/docs/redefine-success-first',
+      },
       { title: 'Green mode design', href: '/docs/green-mode-design' },
       { title: 'Carbon awareness', href: '/docs/carbon-awareness' },
     ],
@@ -33,30 +33,37 @@ const navigation = [
       { title: 'Display Mode', href: '/docs/display-mode' },
       { title: 'Carbon Loader', href: '/docs/carbon-loader' },
       { title: 'Carbon Component', href: '/docs/carbon-component' },
-      { title: 'Graceful Degradation Function', href: '/docs/graceful-degradation-function' },
+      {
+        title: 'Graceful Degradation Function',
+        href: '/docs/graceful-degradation-function',
+      },
       { title: 'UI Switch', href: '/docs/ui-switch' },
     ],
   },
   {
     title: 'Headless Solutions',
     links: [
-      { title: 'Introduction to headless', href: '/docs/introduction-to-headless' },
-      { title: 'SUI headless for the web', href: '/docs/sui-headless-for-the-web' },
+      {
+        title: 'Introduction to headless',
+        href: '/docs/introduction-to-headless',
+      },
+      {
+        title: 'SUI headless for the web',
+        href: '/docs/sui-headless-for-the-web',
+      },
     ],
   },
   {
     title: 'Edge',
-    links: [
-      { title: 'Cloudflare Workers', href: '/cloudflare-workers' }
-    ]
+    links: [{ title: 'Cloudflare Workers', href: '/cloudflare-workers' }],
   },
   {
     title: 'Project Updates',
     links: [
       { title: 'Year 2023', href: '/updates/year-2023' },
-      { title: 'Year 2022', href: '/updates/year-2022' }
-    ]
-  }
+      { title: 'Year 2022', href: '/updates/year-2022' },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {
@@ -95,7 +102,10 @@ function Header({ theme, navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
-          <Logo theme={theme} className="hidden h-9 w-auto fill-slate-700 dark:fill-green-100 lg:block" />
+          <Logo
+            theme={theme}
+            className="hidden h-9 w-auto fill-slate-700 dark:fill-green-100 lg:block"
+          />
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
@@ -103,7 +113,11 @@ function Header({ theme, navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector theme={theme} className="relative z-10" />
-        <Link href="https://github.com/sustainableui/sui-headless-react" className="group" aria-label="GitHub">
+        <Link
+          href="https://github.com/sustainableui/sui-headless-react"
+          className="group"
+          aria-label="GitHub"
+        >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
@@ -197,7 +211,10 @@ export function Layout({ children, theme, title, tableOfContents }) {
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
           <article>
             {(title || section) && (
-              <header id={slugify(title)} className="scroll-mt-28 lg:scroll-mt-[8.5rem] mb-9 space-y-1">
+              <header
+                id={slugify(title)}
+                className="mb-9 scroll-mt-28 space-y-1 lg:scroll-mt-[8.5rem]"
+              >
                 {section && (
                   <p className="font-display text-sm font-medium text-green-500">
                     {section.title}
@@ -298,6 +315,18 @@ export function Layout({ children, theme, title, tableOfContents }) {
             )}
           </nav>
         </div>
+      </div>
+      <div className="flex flex-col items-center border-t border-slate-200 pb-12 pt-12 dark:border-slate-800">
+        <p className="text-sm text-slate-500 dark:text-slate-400">
+          &copy; {new Date().getFullYear()}{' '}
+          <Link
+            className="hover:underline"
+            href="https://sampittko.sk/?ref=sustainableui"
+          >
+            Samuel Pitonak
+          </Link>
+          . All rights reserved.
+        </p>
       </div>
     </>
   )
