@@ -322,6 +322,7 @@ export function Layout({ children, theme, title, tableOfContents }) {
           <Link
             className="hover:underline"
             href="https://sampittko.sk/?ref=sustainableui"
+            target="_blank"
           >
             Samuel Pitonak
           </Link>
