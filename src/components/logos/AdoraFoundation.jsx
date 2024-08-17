@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function AdoraFoundation() {
   return (
     <Link
-      href="https://adorafoundation.org"
+      href="https://adorafoundation.org/?ref=sustainableui"
       alt="Adora Foundation"
       target="_blank"
     >
