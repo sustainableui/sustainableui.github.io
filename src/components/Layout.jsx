@@ -192,6 +192,18 @@ export function Layout({ children, theme, title, tableOfContents }) {
 
   return (
     <>
+      <div className="flex justify-center gap-x-6 bg-orange-600 px-6 py-2.5 sm:px-3.5">
+        <p className="text-sm/6 text-white">
+          <a href="https://samuelpitonak.sk" target="_blank" rel="noopener noreferrer">
+            <strong className="font-semibold">Domain for Sale</strong>
+            <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline size-0.5 fill-current">
+              <circle r={1} cx={1} cy={1} />
+            </svg>
+            This project is abandoned. Contact Samuel Pitonak if you're interested in acquiring this domain.&nbsp;<span aria-hidden="true">&rarr;</span>
+          </a>
+        </p>
+      </div>
+
       <Header theme={theme} navigation={navigation} />
 
       {isHomePage && <Hero title={title} />}
