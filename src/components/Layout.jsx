@@ -199,7 +199,7 @@ export function Layout({ children, theme, title, tableOfContents }) {
             <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline size-0.5 fill-current">
               <circle r={1} cx={1} cy={1} />
             </svg>
-            This project is abandoned. Contact Samuel Pitonak if you$aposre interested in acquiring this domain.&nbsp;<span aria-hidden="true">&rarr;</span>
+            This project is abandoned. Contact Samuel Pitonak if you&apos;re interested in acquiring this domain.&nbsp;<span aria-hidden="true">&rarr;</span>
           </a>
         </p>
       </div>
