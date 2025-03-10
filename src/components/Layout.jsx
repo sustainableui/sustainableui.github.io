@@ -194,7 +194,7 @@ export function Layout({ children, theme, title, tableOfContents }) {
     <>
       <div className="flex justify-center gap-x-6 bg-orange-600 px-4 py-2.5 sm:px-8">
         <p className="text-sm/6 text-white">
-          <a href="https://samuelpitonak.sk" target="_blank" rel="noopener noreferrer">
+          <a href="https://samuelpitonak.sk/?utm_source=sustainableui.com&utm_medium=referral&utm_campaign=domain_sale" target="_blank" rel="noopener noreferrer">
             <strong className="font-semibold">Domain for Sale</strong>
             <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline size-0.5 fill-current">
               <circle r={1} cx={1} cy={1} />
