@@ -46,6 +46,13 @@ export default function Document() {
       </Head>
       <body className="bg-white dark:bg-slate-900">
         <Main />
+
+        <script
+          src="/analytics.js"
+          async
+          defer
+        />
+        
         <NextScript />
       </body>
     </Html>
