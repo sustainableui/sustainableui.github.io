@@ -7,12 +7,12 @@ In addition to designing and developing for well-being, equity and sustainabilit
 
 ## Graceful degradation
 
-Graceful degradation degrades performance of a software while retaining its core functionality. This way, it is possible to interact with the software through multiple alternative versions. 
+Graceful degradation degrades performance of a software while retaining its core functionality. This way, it is possible to interact with the software through multiple alternative versions.
 
 ## User control
 
 User control is a core UX principle that places user at center of user experience of an app. Hence, graceful degradation is optional to avoid violation of this fundamental principle.
 
 {% callout title="Read more about green mode design" %}
-A proposal for a design paradigm to reduce emissions via user choice and progressive degradation - [Green Mode Design](https://ismaelvelasco.dev/series/green-mode-design).
+A proposal for a design paradigm to reduce emissions via user choice and progressive degradation - [Green Mode Design](https://ismaelvelasco.dev/series/green-mode-design?utm_source=sustainableui.github.io).
 {% /callout %}

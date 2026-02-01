@@ -2,7 +2,11 @@ import Link from 'next/link'
 
 export default function AdoraFoundation() {
   return (
-    <Link href="https://edi.eco/?ref=sustainableui" alt="edi" target="_blank">
+    <Link
+      href="https://edi.eco/?utm_source=sustainableui.github.io"
+      alt="edi"
+      target="_blank"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 96 30"

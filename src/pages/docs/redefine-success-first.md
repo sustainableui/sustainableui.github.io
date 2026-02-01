@@ -6,14 +6,14 @@ description: To redefine UIs, it means to redefine what user can and cannot do i
 SUI is focusing on UIs as apps are built around user. It promotes 3 core principles: well-being, equity and sustainability. **To redefine UIs, it means to redefine what user can and cannot do within software that we create.** In today's economic structure which is capitalism, GDP is a primary metric for measuring success. We think this is not right as activities of consumers and companies have other more significant consequences. **This completely changes meaning of a good software.**
 
 {% callout title="Read more about ethical design" %}
-SUI's vision is inspired by the original article from [Lennart Overkamp](http://lennartoverkamp.com/) titled "[Designers, (Re)define Success First](https://alistapart.com/article/redefine-success-first/)" on A List Apart magazine from May 2022.
+SUI's vision is inspired by the original article from [Lennart Overkamp](http://lennartoverkamp.com?utm_source=sustainableui.github.io) titled "[Designers, (Re)define Success First](https://alistapart.com/article/redefine-success-first/?utm_source=sustainableui.github.io)" on A List Apart magazine from May 2022.
 {% /callout %}
 
 Ethical design implies three core values for SUI:
 
 ## Well-being
 
-We build UIs that treat user’s attention and time well. We do our best not to give user a reason for being addicted to the app. We provide nudges that encourage healthier behavior from the user perspective. We are well aware of attention economy and do not promote it further. 
+We build UIs that treat user’s attention and time well. We do our best not to give user a reason for being addicted to the app. We provide nudges that encourage healthier behavior from the user perspective. We are well aware of attention economy and do not promote it further.
 
 ## Equity
 
